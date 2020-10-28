@@ -1,0 +1,19 @@
+﻿<Window x:Class="ActividadesUT2_6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ActividadesUT2_6"
+        mc:Ignorable="d"
+        Title="Opacidad imagen" Height="450" Width="809" Icon="32.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="623*"/>
+            <ColumnDefinition Width="145*"/>
+            <ColumnDefinition Width="24*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="325" Margin="36,34,0,0" VerticalAlignment="Top" Width="231" Source="episodioIV.jpg" Opacity="0.5" MouseEnter="image_MouseEnter" MouseLeave="image_MouseLeave"/>
+        <Image HorizontalAlignment="Left" Height="325" Margin="551,34,0,0" VerticalAlignment="Top" Width="231" Grid.ColumnSpan="3" Source="episodioVI.jpg" Opacity="0.5" MouseEnter="image_MouseEnter" MouseLeave="image_MouseLeave"/>
+        <Image HorizontalAlignment="Left" Height="325" Margin="299,34,0,0" VerticalAlignment="Top" Width="231" Source="episodioV.jpg" Opacity="0.5" MouseEnter="image_MouseEnter" MouseLeave="image_MouseLeave"/>
+    </Grid>
+</Window>
